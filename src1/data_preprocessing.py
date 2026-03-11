@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 def load_and_split_data():
-    data = pd.read_csv("../data/raw/insuranceprediction.csv")
+    data = pd.read_csv("../data/raw1/insuranceprediction.csv")
 
     X = data[['Age','Annual_Income_LPA','Policy_Term_Years','Sum_Assured_Lakhs']]
     y = data['Annual_Premium_Thousands']

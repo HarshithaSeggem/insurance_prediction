@@ -1,5 +1,5 @@
 import streamlit as st
-from src.prediction import Insurance_Predictor
+from src1.prediction import Insurance_Predictor
 st.title("Insurance Premium Prediction")
 st.write("Enter the details to predict the insurance premium")
 Age = st.number_input("enter age")
